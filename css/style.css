@@ -64,11 +64,13 @@ body {
 
 /* Hero Section */
 .hero {
-  background-color: #6366f1;
+  background: url('../assets/background.jpg') no-repeat center center;
+  background-size: cover;
   color: white;
   text-align: center;
   padding: 120px 20px 80px;
 }
+
 
 .hero h1 {
   font-size: 3rem;
