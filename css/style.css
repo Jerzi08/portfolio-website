@@ -130,6 +130,8 @@ section {
   font-size: 1.1rem;
   margin-bottom: 20px;
   line-height: 1.7;
+  text-align: justify;
+
 }
 
 .info-list {
