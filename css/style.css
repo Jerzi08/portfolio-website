@@ -155,6 +155,12 @@ section {
   color: #333;
 }
 
+.education p,
+.experience p {
+  text-align: justify;
+}
+
+
 .timeline {
   list-style: none;
   padding: 0;
