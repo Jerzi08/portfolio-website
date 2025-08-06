@@ -391,3 +391,105 @@ body.dark-mode .btn-outline:hover {
 body.dark-mode .footer {
   background-color: #111827;
 }
+
+/* RESPONSIVE DESIGN */
+
+/* Tablet dan layar sedang */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    padding: 10px 24px;
+    font-size: 1rem;
+  }
+
+  .skill-item h3 {
+    font-size: 1rem;
+  }
+
+  .project-item h3 {
+    font-size: 1.1rem;
+  }
+}
+
+/* HP dan layar kecil */
+@media (max-width: 480px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  .hero {
+    padding: 80px 20px 60px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+
+  .navbar .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .skills .skill-list,
+  .projects .project-list {
+    grid-template-columns: 1fr;
+  }
+
+  .project-item {
+    padding: 16px;
+  }
+
+  .contact form {
+    width: 100%;
+  }
+
+  .contact input,
+  .contact textarea {
+    font-size: 0.95rem;
+  }
+
+  .contact button {
+    font-size: 0.95rem;
+  }
+
+  .info-list {
+    font-size: 1rem;
+  }
+
+  .education p,
+  .experience p {
+    font-size: 0.95rem;
+  }
+}
