@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio | Nama Kamu</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- FontAwesome CDN untuk icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Nama Kamu</a>
+      <ul class="nav-links">
+        <li><a href="#hero">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+        <li><button id="darkModeToggle" class="btn-toggle"><i class="fa-regular fa-moon"></i></button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <h1>Halo, saya <span class="highlight">Nama Kamu</span></h1>
+      <p>Saya seorang Web Developer dan penggemar teknologi.</p>
+      <a href="#projects" class="btn">Lihat Proyek Saya</a>
+    </div>
+  </section>
+
+  <!-- Tentang Saya -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya mahasiswa jurusan Teknik Informatika dengan minat di pengembangan web dan teknologi modern. 
+        Saya suka belajar hal baru dan membangun proyek yang bermanfaat.
+      </p>
+      <ul class="info-list">
+        <li><strong>Nama:</strong> Nama Kamu</li>
+        <li><strong>Email:</strong> kamu@example.com</li>
+        <li><strong>Lokasi:</strong> Kota Kamu</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Keahlian -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Keahlian</h2>
+      <div class="skill-list">
+        <div class="skill-item">
+          <h3>HTML</h3>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <h3>CSS</h3>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 85%;"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <h3>JavaScript</h3>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 75%;"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <h3>Git & GitHub</h3>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 80%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyek -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Proyek Saya</h2>
+      <div class="project-list">
+
+        <div class="project-item">
+          <h3>Todo List App</h3>
+          <p>Aplikasi sederhana untuk mengelola tugas harian menggunakan HTML, CSS, dan JavaScript.</p>
+          <a href="https://github.com/kamu/todo-list" target="_blank" class="btn btn-outline">Lihat di GitHub</a>
+        </div>
+
+        <div class="project-item">
+          <h3>Landing Page Portfolio</h3>
+          <p>Desain landing page modern dengan responsif menggunakan CSS Flexbox dan Grid.</p>
+          <a href="https://github.com/kamu/landing-page" target="_blank" class="btn btn-outline">Lihat di GitHub</a>
+        </div>
+
+        <!-- Tambah proyek lain di sini -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Kontak</h2>
+      <p>Jika kamu tertarik bekerja sama atau ingin menghubungi saya, silakan kirim pesan lewat form di bawah ini:</p>
+      <form id="contactForm">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Kirim</button>
+      </form>
+      <p id="formStatus"></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Nama Kamu. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://github.com/kamu" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/kamu" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:kamu@example.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
