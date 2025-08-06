@@ -64,13 +64,30 @@ body {
 
 /* Hero Section */
 .hero {
-  background: url('../assets/background.jpg') no-repeat center center;
+  background: url('../assets/nama-foto.jpg') no-repeat center center;
   background-size: cover;
+  position: relative;
   color: white;
-  text-align: center;
   padding: 120px 20px 80px;
+  text-align: center;
+  /* tambahan agar teks lebih mudah dibaca */
+  z-index: 1;
 }
 
+/* overlay gelap supaya teks terlihat */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* hitam transparan */
+  z-index: 0;
+}
+
+/* pastikan konten hero di atas overlay */
+.hero > .container {
+  position: relative;
+  z-index: 2;
+}
 
 .hero h1 {
   font-size: 3rem;
