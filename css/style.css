@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: 60px; /* <-- tambahkan ini */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
