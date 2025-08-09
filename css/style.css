@@ -325,7 +325,7 @@ section {
 }
 
 .footer .social-icons a {
-  color: white;
+  color: #111 (17, 1, 1);
   margin: 0 12px;
   font-size: 1.4rem;
   transition: color 0.3s ease;
