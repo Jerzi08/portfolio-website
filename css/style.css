@@ -30,26 +30,23 @@ body {
   padding: 0 20px;
 }
 
-.social-icons-nav a {
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
+.social-icons-nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
 
-.social-icons-nav a.linkedin {
-  color: #0077B5; /* LinkedIn Blue */
+.social-icon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
 }
 
-.social-icons-nav a.instagram {
-  color: #E1306C; /* Instagram Pink */
+.social-icon:hover {
+  transform: scale(1.2);
 }
 
-.social-icons-nav a.whatsapp {
-  color: #25D366; /* WhatsApp Green */
-}
-
-.social-icons-nav a.github {
-  color: #333; /* GitHub Default */
-}
 
 .social-icons-nav a.moon {
   color: #111827; /* Moon Icon */
