@@ -540,11 +540,11 @@ body.dark-mode .footer {
 }
 
 .content-box {
-  background-color: #808080;  /* Contoh warna biru cerah */
+  background-color: #f3eaea;  /* Contoh warna biru cerah */
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  color: white;  /* Supaya teks terlihat di background biru */
+  color: rgb(15, 1, 1);  /* Supaya teks terlihat di background biru */
 }
 
 
