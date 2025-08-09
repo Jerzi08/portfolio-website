@@ -37,7 +37,7 @@ body {
 }
 
 .social-icons-nav a {
-  color: white;
+  color: black;
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
