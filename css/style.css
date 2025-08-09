@@ -87,7 +87,7 @@ body {
 
 .btn-toggle:hover,
 .nav-links li a:hover {
-  color: #f6fa0b;
+  color: #5f0bfa;
 }
 
 /* Hero Section */
@@ -95,7 +95,7 @@ body {
   background: url('../assets/aku.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
-  color: white;
+  color: rgb(247, 211, 8);
   padding: 120px 20px 80px;
   text-align: center;
   /* tambahan agar teks lebih mudah dibaca */
