@@ -76,7 +76,7 @@ body {
 
 .nav-links li a,
 .btn-toggle {
-  color: white;
+  color: #111;
   text-decoration: none;
   font-weight: 600;
   cursor: pointer;
@@ -87,7 +87,7 @@ body {
 
 .btn-toggle:hover,
 .nav-links li a:hover {
-  color: #c7d2fe;
+  color: #f6fa0b;
 }
 
 /* Hero Section */
