@@ -2,84 +2,36 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Portofolio profesional Jerzi Bleszynski Pratama - Web Developer dan Data Analyst. Lihat proyek dan pengalaman kerja terbaru." />
-  <meta name="keywords" content="Web Developer, Data Analyst, Portfolio, HTML, CSS, JavaScript, React, Python" />
-  <meta name="author" content="Jerzi Bleszynski Pratama" />
-  
-  <!-- Open Graph / Social Media -->
-  <meta property="og:title" content="Jerzi Bleszynski Pratama - Web Developer & Data Analyst" />
-  <meta property="og:description" content="Portofolio profesional dengan pengalaman dalam pengembangan web dan analisis data." />
-  <meta property="og:image" content="assets/og-image.jpg" />
-  <meta property="og:url" content="https://jerzi08.github.io/portfolio" />
-  
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/favicon.png" />
-  
-  <title>Jerzi Bleszynski Pratama | Web Developer & Data Analyst</title>
-  
-  <!-- Fonts & Icons -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  
-  <!-- AOS Animation Library -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  
-  <!-- Main CSS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio | Jerzi Bleszynski Pratama</title>
   <link rel="stylesheet" href="css/style.css" />
+  <!-- FontAwesome CDN untuk icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-  <!-- Loading Screen -->
-  <div id="loader" class="loader">
-    <div class="spinner"></div>
-  </div>
 
   <!-- Navbar -->
-  <nav class="navbar" id="navbar">
+  <nav class="navbar">
     <div class="container">
-      <a href="#" class="logo">Jerzi<span class="logo-dot">.</span></a>
-      
-      <div class="nav-toggle" id="navToggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#hero" class="active">Beranda</a></li>
+      <a href="#" class="logo">Jerzi Bleszyski Pratama</a>
+        <ul class="nav-links">
+        <li><a href="#hero">Beranda</a></li>
         <li><a href="#about">Tentang</a></li>
-        <li><a href="#education">Pendidikan</a></li>
-        <li><a href="#experience">Pengalaman</a></li>
         <li><a href="#skills">Keahlian</a></li>
         <li><a href="#projects">Proyek</a></li>
         <li><a href="#contact">Kontak</a></li>
-        
-        <!-- Social Icons -->
-        <li class="social-icons-nav">
-          <a href="https://github.com/jerzi08" target="_blank" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://linkedin.com/in/jerzi-bleszynski-pratama" target="_blank" aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://instagram.com/Bleszynski08" target="_blank" aria-label="Instagram">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://wa.me/6285175080314" target="_blank" aria-label="WhatsApp">
-            <i class="fab fa-whatsapp"></i>
-          </a>
-        </li>
-        
-        <!-- Dark Mode Toggle -->
-        <li>
-          <button id="darkModeToggle" class="btn-toggle" aria-label="Toggle dark mode">
-            <i class="fa-regular fa-moon"></i>
-          </button>
-        </li>
+        <!-- Sosial Media Ikon -->
+  <div class="social-icons-nav">
+    <a href="https://www.linkedin.com/in/jerzi-bleszynski-pratama" target="_blank" >
+    <img src="assets/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+    <a href="https://www.instagram.com/Bleszynski08" target="_blank" title="Instagram">
+    <img src="assets/icons/instagram.png" alt="Instagram" class="social-icon"></a>
+    <a href="https://wa.me/6285175080314" target="_blank">
+    <img src="assets/icons/whatsapp.png" alt="WhatsApp" class="social-icon"></a>
+    <a href="https://github.com/jerzi08" target="_blank">
+    <img src="assets/icons/github.png" alt="GitHub" class="social-icon"></a>
+  </div>
+        <li><button id="darkModeToggle" class="btn-toggle"><i class="fa-regular fa-moon"></i></button></li>
       </ul>
     </div>
   </nav>
@@ -87,566 +39,179 @@
   <!-- Hero Section -->
   <section id="hero" class="hero">
     <div class="container">
-      <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
-        <span class="hero-subtitle">Welcome to my portfolio</span>
-        <h1 class="hero-title">
-          Hi, I'm <span class="highlight">Jerzi Bleszynski Pratama</span>
-        </h1>
-        <p class="hero-description">
-          Web Developer & Data Analyst dengan passion dalam menciptakan solusi digital inovatif dan analisis data yang mendalam.
+      <h1><span class="highlight">Jerzi Bleszynski Pratama</span></h1>
+      <p>Web Developer dan Data Analyst.</p>
+      <a href="#projects" class="btn">Lihat Proyek Saya</a>
+    </div>
+  </section>
+
+  <!-- Tentang Saya -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="content-box">
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya lulusan sistem informasi yang memiliki ketertarikan mendalam di bidang pengembangan web dan teknologi modern. 
+        termasuk berbagai framework, bahasa pemrograman, serta tren terbaru dalam dunia teknologi informasi.
+        Sejak memulai perjalanan di dunia IT, saya terus berusaha mengasah kemampuan melalui pembelajaran mandiri, mengikuti pelatihan, serta
+        membangun berbagai proyek kecil maupun kolaboratif yang bertujuan untuk memberikan solusi nyata
+        terhadap permasalahan di kehidupan sehari-hari. Saya sangat menikmati proses belajar hal-hal baru,
+        terutama yang menantang dan dapat memperluas wawasan serta kemampuan teknis saya, karena saya
+        percaya bahwa dunia teknologi terus berkembang dan menuntut kita untuk terus adaptif, kreatif, dan
+        terbuka terhadap perubahan.
+      </p>
+      <ul class="info-list">
+        <li><i class="fas fa-user"></i><strong>Nama:</strong> Jerzi Bleszyski Pratama</li>
+        <li><i class="fas fa-envelope"></i><strong>Email:</strong> jerzi.bp@gmail.com</li>
+        <li><i class="fas fa-map-marker-alt"></i><strong>Lokasi:</strong> Bengkulu</li>
+      </ul>
+    </div>
+    </div>
+  </section>
+
+  <!-- Pendidikan -->
+<section id="education" class="education">
+  <div class="container">
+    <div class="content-box">
+    <h2>Pendidikan</h2>
+    <ul class="timeline">
+      <li>
+        <h3>S2 Sistem Informasi</h3>
+        <p>Universitas Komputer Indonesia (2023 – 2025)</p>
+        <p>Fokus pada Data Science, analisis data besar (big data), dan penerapan machine learning untuk menyelesaikan masalah bisnis dan teknologi. Selama studi, saya mempelajari teknik pengolahan data,
+          pemodelan statistik, visualisasi data, serta penggunaan alat dan bahasa pemrograman seperti Python dan R untuk analisis data yang mendalam. Proyek penelitian dan tugas akhir berorientasi pada implementasi solusi berbasis data untuk meningkatkan pengambilan keputusan organisasi.
         </p>
-        <div class="hero-buttons">
-          <a href="#projects" class="btn btn-primary">Lihat Proyek Saya</a>
-          <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
-        </div>
-      </div>
-      
-      <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
-        <div class="stat-item">
-          <span class="stat-number">2+</span>
-          <span class="stat-label">Tahun Pengalaman</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-number">15+</span>
-          <span class="stat-label">Proyek Selesai</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-number">10+</span>
-          <span class="stat-label">Klien Puas</span>
-        </div>
-      </div>
+      </li>
+      <li>
+        <h3>S1 Sistem Informasi</h3>
+        <p>Universitas Muhammadiyah Bengkulu (2017 – 2021)</p>
+        <p>Spesialisasi pemrograman web dengan pengembangan aplikasi berbasis front-end dan back-end menggunakan berbagai teknologi seperti HTML, CSS, JavaScript, 
+          serta framework populer. Selain itu, saya belajar manajemen basis data, desain sistem informasi, dan pengembangan aplikasi yang responsif dan user-friendly. Pengalaman praktis diperoleh lewat berbagai proyek kuliah dan magang, termasuk membangun aplikasi web interaktif dan sistem manajemen data..
+        </p>
+      </li>
     </div>
-    
-    <div class="hero-shape">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="currentColor" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,170.7C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-      </svg>
-    </div>
-  </section>
+    </ul>
+  </div>
+</section>
 
-  <!-- About Section -->
-  <section id="about" class="about section">
+<!-- Pengalaman -->
+<section id="experience" class="experience">
+  <div class="container">
+    <div class="content-box">
+    <h2>Pengalaman Kerja</h2>
+    <ul class="timeline">
+      <li>
+        <h3>Freelance Web Developer (2023 – Sekarang)</h3>
+        <p>Sebagai Freelance Web Developer, saya bertanggung jawab untuk merancang dan membangun berbagai proyek web seperti landing page, aplikasi tugas harian, dan situs portfolio dengan fokus pada tampilan yang responsif dan pengalaman pengguna yang optimal. Saya menggunakan teknologi HTML, CSS, 
+          dan JavaScript serta mengintegrasikan API sesuai kebutuhan klien. Selain itu, saya juga berkomunikasi langsung dengan klien untuk memahami kebutuhan mereka dan memberikan solusi teknis yang efektif serta tepat waktu.
+        </p>
+      </li>
+      <li>
+        <h3>Digital Marketing Specialist - PT Mentari Books Indonesia (2021 – 2023) </h3>
+        <p>Bertanggung jawab mengembangkan dan menjalankan strategi pemasaran digital untuk meningkatkan brand awareness dan penjualan produk. Melakukan manajemen kampanye iklan di platform seperti Google Ads dan media sosial (Facebook, Instagram), analisis performa kampanye menggunakan Google Analytics, 
+          serta mengoptimalkan SEO website untuk meningkatkan trafik organik. Selain itu, saya juga membuat konten kreatif yang relevan dan engaging untuk target audiens serta berkolaborasi dengan tim kreatif untuk memastikan konsistensi merek.
+        </p>
+      </li>
+    </ul>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Keahlian -->
+  <section id="skills" class="skills">
     <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-subtitle">Tentang Saya</span>
-        <h2 class="section-title">Mengenal Lebih Dekat</h2>
-        <div class="section-divider"></div>
+      <div class="content-box">
+      <h2>Keahlian</h2>
+      <div class="skill-list">
+        <div class="skill-item">
+          <h3>HTML</h3>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <h3>CSS</h3>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 85%;"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <h3>JavaScript</h3>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 75%;"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <h3>Git & GitHub</h3>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 80%;"></div>
+          </div>
+        </div>
       </div>
-      
-      <div class="about-content">
-        <div class="about-text" data-aos="fade-right">
-          <p class="about-description">
-            Saya lulusan sistem informasi yang memiliki ketertarikan mendalam di bidang pengembangan web dan teknologi modern. 
-            Termasuk berbagai framework, bahasa pemrograman, serta tren terbaru dalam dunia teknologi informasi.
-          </p>
-          <p class="about-description">
-            Sejak memulai perjalanan di dunia IT, saya terus berusaha mengasah kemampuan melalui pembelajaran mandiri, 
-            mengikuti pelatihan, serta membangun berbagai proyek kecil maupun kolaboratif yang bertujuan untuk memberikan 
-            solusi nyata terhadap permasalahan di kehidupan sehari-hari.
-          </p>
-          
-          <div class="about-info">
-            <div class="info-item">
-              <i class="fas fa-user"></i>
-              <div>
-                <span class="info-label">Nama</span>
-                <span class="info-value">Jerzi Bleszynski Pratama</span>
-              </div>
-            </div>
-            <div class="info-item">
-              <i class="fas fa-envelope"></i>
-              <div>
-                <span class="info-label">Email</span>
-                <span class="info-value">jerzi.bp@gmail.com</span>
-              </div>
-            </div>
-            <div class="info-item">
-              <i class="fas fa-map-marker-alt"></i>
-              <div>
-                <span class="info-label">Lokasi</span>
-                <span class="info-value">Bengkulu, Indonesia</span>
-              </div>
-            </div>
-            <div class="info-item">
-              <i class="fas fa-laptop-code"></i>
-              <div>
-                <span class="info-label">Freelance</span>
-                <span class="info-value">Tersedia</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="about-cta">
-            <a href="assets/cv.pdf" download class="btn btn-primary" target="_blank">
-              <i class="fas fa-download"></i> Download CV
-            </a>
-          </div>
-        </div>
-        
-        <div class="about-image" data-aos="fade-left">
-          <div class="image-wrapper">
-            <img src="assets/profile.jpg" alt="Jerzi Bleszynski Pratama" class="profile-image" />
-            <div class="image-decoration"></div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- Education Section -->
-  <section id="education" class="education section">
+  <!-- Proyek -->
+  <section id="projects" class="projects">
     <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-subtitle">Pendidikan</span>
-        <h2 class="section-title">Riwayat Pendidikan</h2>
-        <div class="section-divider"></div>
+      <div class="content-box">
+      <h2>Proyek Saya</h2>
+      <div class="project-list">
+
+        <div class="project-item">
+          <h3>Todo List App</h3>
+          <p>Aplikasi sederhana untuk mengelola tugas harian menggunakan HTML, CSS, dan JavaScript.</p>
+          <a href="https://github.com/kamu/todo-list" target="_blank" class="btn btn-outline">Lihat di GitHub</a>
+        </div>
+
+        <div class="project-item">
+          <h3>Landing Page Portfolio</h3>
+          <p>Desain landing page modern dengan responsif menggunakan CSS Flexbox dan Grid.</p>
+          <a href="https://github.com/kamu/landing-page" target="_blank" class="btn btn-outline">Lihat di GitHub</a>
+        </div>
+
+        <!-- Tambah proyek lain di sini -->
+
       </div>
-      
-      <div class="timeline-wrapper" data-aos="fade-up">
-        <div class="timeline-item">
-          <div class="timeline-icon">
-            <i class="fas fa-graduation-cap"></i>
-          </div>
-          <div class="timeline-content">
-            <span class="timeline-date">2023 - 2025</span>
-            <h3 class="timeline-title">S2 Sistem Informasi</h3>
-            <h4 class="timeline-subtitle">Universitas Komputer Indonesia</h4>
-            <p class="timeline-description">
-              Fokus pada Data Science, analisis data besar (big data), dan penerapan machine learning 
-              untuk menyelesaikan masalah bisnis dan teknologi. Mempelajari teknik pengolahan data,
-              pemodelan statistik, visualisasi data, serta penggunaan Python dan R.
-            </p>
-          </div>
-        </div>
-        
-        <div class="timeline-item">
-          <div class="timeline-icon">
-            <i class="fas fa-graduation-cap"></i>
-          </div>
-          <div class="timeline-content">
-            <span class="timeline-date">2017 - 2021</span>
-            <h3 class="timeline-title">S1 Sistem Informasi</h3>
-            <h4 class="timeline-subtitle">Universitas Muhammadiyah Bengkulu</h4>
-            <p class="timeline-description">
-              Spesialisasi pemrograman web dengan pengembangan aplikasi front-end dan back-end 
-              menggunakan HTML, CSS, JavaScript, serta framework populer. Mempelajari manajemen basis data,
-              desain sistem informasi, dan pengembangan aplikasi responsif.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- Experience Section -->
-  <section id="experience" class="experience section">
+  <!-- Kontak -->
+  <section id="contact" class="contact">
     <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-subtitle">Pengalaman</span>
-        <h2 class="section-title">Pengalaman Kerja</h2>
-        <div class="section-divider"></div>
-      </div>
-      
-      <div class="timeline-wrapper" data-aos="fade-up">
-        <div class="timeline-item">
-          <div class="timeline-icon">
-            <i class="fas fa-briefcase"></i>
-          </div>
-          <div class="timeline-content">
-            <span class="timeline-date">2023 - Sekarang</span>
-            <h3 class="timeline-title">Freelance Web Developer</h3>
-            <h4 class="timeline-subtitle">Self-Employed</h4>
-            <p class="timeline-description">
-              Merancang dan membangun berbagai proyek web seperti landing page, aplikasi tugas harian, 
-              dan situs portfolio dengan fokus pada tampilan responsif dan pengalaman pengguna optimal. 
-              Menggunakan HTML, CSS, JavaScript serta mengintegrasikan API sesuai kebutuhan klien.
-            </p>
-          </div>
-        </div>
-        
-        <div class="timeline-item">
-          <div class="timeline-icon">
-            <i class="fas fa-briefcase"></i>
-          </div>
-          <div class="timeline-content">
-            <span class="timeline-date">2021 - 2023</span>
-            <h3 class="timeline-title">Digital Marketing Specialist</h3>
-            <h4 class="timeline-subtitle">PT Mentari Books Indonesia</h4>
-            <p class="timeline-description">
-              Mengembangkan strategi pemasaran digital, manajemen kampanye iklan di Google Ads dan media sosial, 
-              analisis performa menggunakan Google Analytics, serta optimasi SEO website. Membuat konten kreatif 
-              dan berkolaborasi dengan tim untuk konsistensi merek.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <h2>Kontak</h2>
+      <p>Jika kamu tertarik bekerja sama atau ingin menghubungi saya, silakan kirim pesan lewat form di bawah ini:</p>
+      <form id="contactForm">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required />
 
-  <!-- Skills Section -->
-  <section id="skills" class="skills section">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-subtitle">Keahlian</span>
-        <h2 class="section-title">Kompetensi Teknis</h2>
-        <div class="section-divider"></div>
-      </div>
-      
-      <div class="skills-content">
-        <div class="skills-text" data-aos="fade-right">
-          <p>
-            Saya menguasai berbagai teknologi web development dan data analysis. 
-            Setiap proyek yang saya kerjakan selalu mengutamakan kualitas kode, 
-            performa, dan pengalaman pengguna.
-          </p>
-        </div>
-        
-        <div class="skills-grid" data-aos="fade-up">
-          <div class="skill-card" data-percent="90">
-            <div class="skill-header">
-              <span class="skill-name">HTML5</span>
-              <span class="skill-percentage">90%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 90%"></div>
-            </div>
-          </div>
-          
-          <div class="skill-card" data-percent="85">
-            <div class="skill-header">
-              <span class="skill-name">CSS3 / Tailwind</span>
-              <span class="skill-percentage">85%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 85%"></div>
-            </div>
-          </div>
-          
-          <div class="skill-card" data-percent="75">
-            <div class="skill-header">
-              <span class="skill-name">JavaScript</span>
-              <span class="skill-percentage">75%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 75%"></div>
-            </div>
-          </div>
-          
-          <div class="skill-card" data-percent="80">
-            <div class="skill-header">
-              <span class="skill-name">React.js</span>
-              <span class="skill-percentage">80%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 80%"></div>
-            </div>
-          </div>
-          
-          <div class="skill-card" data-percent="70">
-            <div class="skill-header">
-              <span class="skill-name">Python</span>
-              <span class="skill-percentage">70%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 70%"></div>
-            </div>
-          </div>
-          
-          <div class="skill-card" data-percent="75">
-            <div class="skill-header">
-              <span class="skill-name">SQL</span>
-              <span class="skill-percentage">75%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 75%"></div>
-            </div>
-          </div>
-          
-          <div class="skill-card" data-percent="85">
-            <div class="skill-header">
-              <span class="skill-name">Git & GitHub</span>
-              <span class="skill-percentage">85%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 85%"></div>
-            </div>
-          </div>
-          
-          <div class="skill-card" data-percent="60">
-            <div class="skill-header">
-              <span class="skill-name">Data Analysis</span>
-              <span class="skill-percentage">60%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 60%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects section">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-subtitle">Proyek</span>
-        <h2 class="section-title">Karya Terbaru</h2>
-        <div class="section-divider"></div>
-      </div>
-      
-      <div class="projects-grid" data-aos="fade-up">
-        <div class="project-card">
-          <div class="project-image">
-            <img src="assets/projects/todo-app.jpg" alt="Todo List App" />
-            <div class="project-overlay">
-              <div class="project-links">
-                <a href="#" target="_blank" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
-                <a href="https://github.com/jerzi08/todo-list" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="project-info">
-            <h3 class="project-title">Todo List App</h3>
-            <p class="project-description">
-              Aplikasi manajemen tugas harian dengan fitur drag & drop, local storage, dan dark mode.
-              Dibangun dengan HTML, CSS, dan JavaScript murni.
-            </p>
-            <div class="project-tech">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
-          </div>
-        </div>
-        
-        <div class="project-card">
-          <div class="project-image">
-            <img src="assets/projects/portfolio.jpg" alt="Portfolio Website" />
-            <div class="project-overlay">
-              <div class="project-links">
-                <a href="#" target="_blank" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
-                <a href="https://github.com/jerzi08/portfolio" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="project-info">
-            <h3 class="project-title">Portfolio Website</h3>
-            <p class="project-description">
-              Desain portfolio modern dengan animasi halus, dark mode, dan fully responsive.
-              Menggunakan CSS Flexbox, Grid, dan JavaScript modern.
-            </p>
-            <div class="project-tech">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
-          </div>
-        </div>
-        
-        <div class="project-card">
-          <div class="project-image">
-            <img src="assets/projects/weather-app.jpg" alt="Weather App" />
-            <div class="project-overlay">
-              <div class="project-links">
-                <a href="#" target="_blank" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
-                <a href="https://github.com/jerzi08/weather-app" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="project-info">
-            <h3 class="project-title">Weather App</h3>
-            <p class="project-description">
-              Aplikasi cuaca real-time menggunakan API OpenWeatherMap. Menampilkan forecast 5 hari
-              dan kondisi cuaca detail.
-            </p>
-            <div class="project-tech">
-              <span>JavaScript</span>
-              <span>API</span>
-              <span>CSS</span>
-            </div>
-          </div>
-        </div>
-        
-        <div class="project-card">
-          <div class="project-image">
-            <img src="assets/projects/ecommerce.jpg" alt="E-commerce Landing" />
-            <div class="project-overlay">
-              <div class="project-links">
-                <a href="#" target="_blank" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
-                <a href="https://github.com/jerzi08/ecommerce-landing" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="project-info">
-            <h3 class="project-title">E-commerce Landing Page</h3>
-            <p class="project-description">
-              Landing page modern untuk produk fashion dengan animasi scroll, countdown timer,
-              dan form newsletter.
-            </p>
-            <div class="project-tech">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="projects-cta" data-aos="fade-up">
-        <a href="https://github.com/jerzi08" target="_blank" class="btn btn-outline">
-          <i class="fab fa-github"></i> Lihat Semua Proyek di GitHub
-        </a>
-      </div>
-    </div>
-  </section>
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact section">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-subtitle">Kontak</span>
-        <h2 class="section-title">Mari Bekerja Sama</h2>
-        <div class="section-divider"></div>
-      </div>
-      
-      <div class="contact-content">
-        <div class="contact-info" data-aos="fade-right">
-          <p class="contact-description">
-            Tertarik untuk bekerja sama atau memiliki pertanyaan? 
-            Jangan ragu untuk menghubungi saya melalui form kontak atau informasi di bawah ini.
-          </p>
-          
-          <div class="contact-details">
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div>
-                <h4>Email</h4>
-                <a href="mailto:jerzi.bp@gmail.com">jerzi.bp@gmail.com</a>
-              </div>
-            </div>
-            
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fas fa-phone-alt"></i>
-              </div>
-              <div>
-                <h4>WhatsApp</h4>
-                <a href="https://wa.me/6285175080314">+62 851-7508-0314</a>
-              </div>
-            </div>
-            
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div>
-                <h4>Lokasi</h4>
-                <span>Bengkulu, Indonesia</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="contact-social">
-            <h4>Media Sosial</h4>
-            <div class="social-links">
-              <a href="https://github.com/jerzi08" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-              <a href="https://linkedin.com/in/jerzi-bleszynski-pratama" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-              <a href="https://instagram.com/Bleszynski08" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-              <a href="https://twitter.com/jerzi08" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            </div>
-          </div>
-        </div>
-        
-        <div class="contact-form-wrapper" data-aos="fade-left">
-          <form id="contactForm" class="contact-form">
-            <div class="form-group">
-              <label for="name">Nama Lengkap</label>
-              <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required />
-              <span class="error-message"></span>
-            </div>
-            
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required />
-              <span class="error-message"></span>
-            </div>
-            
-            <div class="form-group">
-              <label for="subject">Subjek</label>
-              <input type="text" id="subject" name="subject" placeholder="Subjek pesan" required />
-              <span class="error-message"></span>
-            </div>
-            
-            <div class="form-group">
-              <label for="message">Pesan</label>
-              <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
-              <span class="error-message"></span>
-            </div>
-            
-            <button type="submit" class="btn btn-primary btn-block">
-              <span class="btn-text">Kirim Pesan</span>
-              <span class="btn-loader" style="display: none;">
-                <i class="fas fa-circle-notch fa-spin"></i>
-              </span>
-            </button>
-            
-            <div id="formStatus" class="form-status"></div>
-          </form>
-        </div>
-      </div>
+        <button type="submit" class="btn">Kirim</button>
+      </form>
+      <p id="formStatus"></p>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-content">
-        <div class="footer-logo">
-          <a href="#" class="logo">Jerzi<span class="logo-dot">.</span></a>
-          <p>Web Developer & Data Analyst</p>
-        </div>
-        
-        <div class="footer-links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#hero">Beranda</a></li>
-            <li><a href="#about">Tentang</a></li>
-            <li><a href="#skills">Keahlian</a></li>
-            <li><a href="#projects">Proyek</a></li>
-            <li><a href="#contact">Kontak</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-newsletter">
-          <h4>Newsletter</h4>
-          <p>Dapatkan update terbaru dari saya</p>
-          <form id="newsletterForm" class="newsletter-form">
-            <input type="email" placeholder="Email Anda" required />
-            <button type="submit" aria-label="Subscribe">
-              <i class="fas fa-paper-plane"></i>
-            </button>
-          </form>
-        </div>
-      </div>
-      
-      <div class="footer-bottom">
-        <p>&copy; 2025 Jerzi Bleszynski Pratama. All rights reserved.</p>
-        <p>Made with <i class="fas fa-heart" style="color: #ef4444;"></i> in Bengkulu</p>
+      <p>© 2025 Jerzi. Made with ❤️ and a lot of coffee..</p>
+      <div class="social-icons">
+        <a href="https://github.com/Jerzi08" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/jerzi-bleszynski-pratama" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jerzi.bp@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
       </div>
     </div>
   </footer>
 
-  <!-- Back to Top Button -->
-  <button id="backToTop" class="back-to-top" aria-label="Back to top">
-    <i class="fas fa-arrow-up"></i>
-  </button>
-
-  <!-- Scripts -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
